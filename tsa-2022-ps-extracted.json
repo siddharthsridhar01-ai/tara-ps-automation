@@ -1,0 +1,616 @@
+{
+  "paper": "TSA 2022 Section 1",
+  "totalQuestions": 50,
+  "problemSolvingQuestions": 25,
+  "extractionNotes": "All 25 PS questions extracted from the PDF. Visual data (pie charts, scatter graphs, grid shading, bar charts) encoded as structured arrays. Critical thinking questions (Q1,3,4,5,9,10,11,15,16,17,21,22,23,27,28,29,33,34,35,39,40,41,45,47,49) excluded.",
+
+  "questions": [
+    {
+      "qNum": 2,
+      "answer": "B",
+      "topicTag": "Systematic Testing",
+      "hasVisualData": true,
+      "questionText": "A quiz consists of 7 rounds, each of which contains 20 questions. Each question is worth one point. At the end of the quiz, but before any of the answers or scores are revealed, each team is allowed to select one of the rounds and the score for that round is tripled. In addition, the scores for the rounds immediately before and after the chosen round are doubled. The winning team at last week's quiz had the following scores in each of the rounds.",
+      "tableData": {
+        "description": "Scores by round",
+        "headers": ["round", 1, 2, 3, 4, 5, 6, 7],
+        "values": ["score", 14, 16, 6, 20, 10, 18, 4]
+      },
+      "questionAsk": "The winning team's final score was 136. Which round did the winning team choose to have the score tripled?",
+      "options": [
+        "A: round 2",
+        "B: round 3",
+        "C: round 4",
+        "D: round 5",
+        "E: round 6"
+      ]
+    },
+
+    {
+      "qNum": 6,
+      "answer": "B",
+      "topicTag": "Mixtures & Ratios",
+      "hasVisualData": false,
+      "questionText": "Rob has two different mixtures of apple juice and orange juice.\n\nmixture 1: 40% apple juice and 60% orange juice\nmixture 2: 70% apple juice and 30% orange juice\n\nRob wants to use these two mixtures to make 6 litres of a juice mixture which is 50% apple juice and 50% orange juice.\n\nHow much of mixture 2 does Rob need to use?",
+      "options": [
+        "A: 1 litre",
+        "B: 2 litres",
+        "C: 3 litres",
+        "D: 4 litres",
+        "E: 5 litres"
+      ]
+    },
+
+    {
+      "qNum": 7,
+      "answer": "C",
+      "topicTag": "Table Reading & Logic",
+      "hasVisualData": true,
+      "questionText": "The extension numbers needed to contact eight different departments in a university depend on whether the caller is calling as a student, parent, lecturer, journalist or researcher. The appropriate numbers are shown below.",
+      "tableData": {
+        "description": "Extension numbers by department and caller type",
+        "headers": ["Department", "student", "parent", "lecturer", "journalist", "researcher"],
+        "rows": [
+          ["Accounts",         387, 387, 661, 387, 661],
+          ["Administration",   117, 387, 117, 232, 232],
+          ["Enquiries",        239, 387, 387, 661, 387],
+          ["Complaints",       558, 239, 117, 387, 117],
+          ["Quality Assurance",239, 239, 117, 558, 239],
+          ["Marketing",        387, 239, 232, 661, 232],
+          ["Public Relations", 239, 117, 387, 239, 232],
+          ["Human Resources",  239, 239, 661, 117, 239]
+        ]
+      },
+      "questionAsk": "Fran is a lecturer and regularly needs to contact all of the departments in the university. How many of the extension numbers are never needed by Fran?",
+      "options": [
+        "A: 0",
+        "B: 1",
+        "C: 2",
+        "D: 3",
+        "E: 4"
+      ]
+    },
+
+    {
+      "qNum": 8,
+      "answer": "B",
+      "topicTag": "Data Interpretation",
+      "hasVisualData": true,
+      "questionText": "Over the past decade the popularity of coffee has soared in the United Kingdom. As a result, the number of coffee shops across the UK has risen. The table below shows a breakdown of the number of chain and independent coffee shops in East London between 2013 and 2019.",
+      "tableData": {
+        "description": "Coffee shops in East London",
+        "headers": ["year", 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+        "rows": [
+          ["chain",       16, 20, 35, 45, 70, 100, 130],
+          ["independent",  2,  5, 15, 45, 50, 100, 140],
+          ["total",       18, 25, 50, 90, 120, 200, 270]
+        ]
+      },
+      "questionAsk": "Which graph shows the information in the table above?",
+      "visualNote": "5 line graph options (A-E) showing percentage of independent vs chain coffee shops. Y-axis 0-100%. The correct graph (B) shows independent starting low (~11%) in 2013, crossing chain around 2016 (both ~50%), then independent exceeding chain by 2019 (~52%). Each graph shows different crossing points or trends.",
+      "options": [
+        "A: Graph A",
+        "B: Graph B",
+        "C: Graph C",
+        "D: Graph D",
+        "E: Graph E"
+      ]
+    },
+
+    {
+      "qNum": 12,
+      "answer": "A",
+      "topicTag": "Value for Money",
+      "hasVisualData": false,
+      "questionText": "The shampoo that I normally buy costs £1.96 for a 500ml bottle and always lasts for 40 days.\n\nLast month I decided to try a new brand that is 36p cheaper and contains 550 ml. However, because of the amount that I have had to use to wash my hair properly, it has run out after only 25 days.\n\nBased upon my experience, by how many pence per day is my normal shampoo better value than the new brand?",
+      "options": [
+        "A: 1.5",
+        "B: 2.4",
+        "C: 4.9",
+        "D: 6.4",
+        "E: 9.5"
+      ]
+    },
+
+    {
+      "qNum": 13,
+      "answer": "B",
+      "topicTag": "Table Reading & Logic",
+      "hasVisualData": true,
+      "questionText": "Kate and Tek are choosing a cottage to rent for their family holiday. They have searched online and reduced their choice to five cottages. The facilities offered by these cottages are shown in the following table.",
+      "tableData": {
+        "description": "Cottage facilities comparison",
+        "headers": ["cottage", "bedrooms", "large garden", "wifi", "parking", "pets allowed", "distance to store", "cost per week"],
+        "rows": [
+          ["Acorns",    3, "no",  "yes", "no",  "yes", "2 km", "$460"],
+          ["Beeches",   3, "yes", "yes", "no",  "yes", "1 km", "$490"],
+          ["Chestnuts", 4, "no",  "yes", "yes", "no",  "2 km", "$510"],
+          ["Denders",   4, "yes", "yes", "yes", "no",  "4 km", "$500"],
+          ["Eglers",    2, "no",  "yes", "yes", "no",  "2 km", "$450"]
+        ]
+      },
+      "questionAsk": "Ideally, Kate and Tek would like a cottage with at least three bedrooms, a large garden, wifi, parking, and they would like to be within 3 km of a store. They realise that it is unlikely that all their wishes will be met, so they decide to compromise. They insist that the cottage must have at least three bedrooms, but they will be happy if at least three of their other wishes are satisfied. If more than one cottage is suitable, then they will choose the one that is the cheapest to rent. Which cottage will Kate and Tek choose?",
+      "options": [
+        "A: Acorns",
+        "B: Beeches",
+        "C: Chestnuts",
+        "D: Denders",
+        "E: Eglers"
+      ]
+    },
+
+    {
+      "qNum": 14,
+      "answer": "C",
+      "topicTag": "Simultaneous Equations",
+      "hasVisualData": true,
+      "questionText": "Alex and Anita play a game where they need to form words from letters. The value of each letter is a whole number of points (which can be 0). Alex and Anita earn points by adding together the value of the letters in the words they form.\n\nThe value of the last three words they formed is shown in the table below.",
+      "tableData": {
+        "description": "Word values",
+        "headers": ["word", "value"],
+        "rows": [
+          ["MOAN", 7],
+          ["MOON", 8],
+          ["NOON", 10]
+        ]
+      },
+      "questionAsk": "Anita has just formed the word ANNA. What is the value of the word ANNA?",
+      "options": [
+        "A: 4",
+        "B: 6",
+        "C: 8",
+        "D: 10",
+        "E: 12"
+      ]
+    },
+
+    {
+      "qNum": 18,
+      "answer": "D",
+      "topicTag": "Travel Costs",
+      "hasVisualData": false,
+      "questionText": "Sean is taking his car to Sunny Island. He lives 38 miles away from the mainland terminal where the seaport and airport are based. He has researched the travel costs and come up with two possible options. The ferry ticket (car and passenger) is $80. Alternatively, a plane ticket is $50 and the seaport company will transport his car (port to port) for $100. Fuel costs are $1.50 per mile.\n\nHow much money will Sean save by taking the cheaper option?",
+      "options": [
+        "A: $13",
+        "B: $20",
+        "C: $30",
+        "D: $70",
+        "E: $127"
+      ]
+    },
+
+    {
+      "qNum": 19,
+      "answer": "B",
+      "topicTag": "Scheduling & Logic",
+      "hasVisualData": true,
+      "questionText": "A youth club is open six evenings every week. There are nine volunteers who run the club. Each evening three of the volunteers are on duty.\n\nWhen the rota is drawn up for any week, the following conditions must be met:\n- Each volunteer has two evenings of duty, but never two consecutive evenings.\n- No two volunteers are on duty together twice in the same week.\n\nNext week's rota has just been published, as follows:",
+      "tableData": {
+        "description": "Weekly rota",
+        "headers": ["day", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "rows": [
+          ["volunteer 1", "Mel", "Eve", "Jan", "Mel", "Eve", "Fay"],
+          ["volunteer 2", "Rod", "Fay", "Leo", "Pat", "Jan", "Leo"],
+          ["volunteer 3", "Sam", "Tim", "Sam", "Tim", "Rod", "Pat"]
+        ]
+      },
+      "questionAsk": "Fay wants to swap her Tuesday duty with one of the others to be on duty on Monday or Thursday instead. Who is the only volunteer on the rota for Monday or Thursday that Fay could swap with if the conditions described above are still to be met?",
+      "options": [
+        "A: Mel",
+        "B: Pat",
+        "C: Rod",
+        "D: Sam",
+        "E: Tim"
+      ]
+    },
+
+    {
+      "qNum": 20,
+      "answer": "B",
+      "topicTag": "Data Interpretation",
+      "hasVisualData": true,
+      "questionText": "Students studying geography at college were tested at the start of the year and at the end of the year. Their marks are shown in the following table.",
+      "tableData": {
+        "description": "Student marks",
+        "headers": ["student", "Ffion", "Gary", "Huw", "Ivy", "Jim", "Ken", "Lee", "Mei", "Naz", "Oli", "Pete", "Quin"],
+        "rows": [
+          ["starting mark", 60, 48, 40, 30, 70, 48, 65, 60, 25, 85, 40, 80],
+          ["end mark",      56, 50, 35, 45, 80, 60, 70, 80, 25, 95, 50, 85]
+        ]
+      },
+      "visualNote": "Scatter graph with x-axis = starting mark, y-axis = end mark. All points correctly plotted EXCEPT Gary who is plotted at (48, 80) instead of (48, 50). The error is that Gary's end mark is shown 30 too high.",
+      "questionAsk": "The following scatter graph shows the marks for the 12 students, but one of the points has been incorrectly plotted. Which student has a mark that is incorrectly plotted on the scatter graph?",
+      "options": [
+        "A: Ffion",
+        "B: Gary",
+        "C: Huw",
+        "D: Ken",
+        "E: Mei"
+      ]
+    },
+
+    {
+      "qNum": 24,
+      "answer": "C",
+      "topicTag": "Speed, Distance & Time",
+      "hasVisualData": false,
+      "questionText": "Iman and Maya ran a 100 metre race. Iman started 2 seconds after Maya and finished 3 seconds before her.\n\nIf each girl ran at a constant speed throughout the race, and Iman's speed was 25% faster than Maya's, for how many seconds did Iman run?",
+      "options": [
+        "A: 15 seconds",
+        "B: 18 seconds",
+        "C: 20 seconds",
+        "D: 22 seconds",
+        "E: 25 seconds"
+      ]
+    },
+
+    {
+      "qNum": 25,
+      "answer": "D",
+      "topicTag": "Best Value Comparison",
+      "hasVisualData": true,
+      "questionText": "Five popular makes of fishcake are shown in the table below, with comparisons of their ingredients, the weight of each type and the cost for a pack of two.",
+      "tableData": {
+        "description": "Fishcake comparison",
+        "headers": ["type", "fish%", "potato%", "coating%", "weight each", "cost pack of 2"],
+        "rows": [
+          ["Arctic",  45, 40, 15, "100g", "£3.00"],
+          ["Banquet", 40, 50, 10, "100g", "£2.50"],
+          ["Chilco",  55, 35, 10, "150g", "£5.00"],
+          ["Dyner",   50, 35, 15, "150g", "£4.00"],
+          ["Evertop", 35, 45, 20, "50g",  "£1.00"]
+        ]
+      },
+      "questionAsk": "Ester wants to buy the fishcakes that contain the greatest amount of fish per pound spent. Which make of fishcake should Ester buy?",
+      "options": [
+        "A: Arctic",
+        "B: Banquet",
+        "C: Chilco",
+        "D: Dyner",
+        "E: Evertop"
+      ]
+    },
+
+    {
+      "qNum": 26,
+      "answer": "E",
+      "topicTag": "Chart Reading",
+      "hasVisualData": true,
+      "questionText": "The following chart shows the average salary of politicians in selected countries in absolute terms on the left (in thousands of dollars) and as a multiple of their country's gross domestic product (GDP) per person on the right.",
+      "chartData": {
+        "description": "Horizontal bar chart with two scales: absolute salary ($'000) on left, GDP multiple on right",
+        "countries": [
+          {"name": "Italy",          "salary": 182.0, "gdpMultiple": null},
+          {"name": "Israel",         "salary": 114.8, "gdpMultiple": null},
+          {"name": "Hong Kong",      "salary": 130.7, "gdpMultiple": null},
+          {"name": "United States",  "salary": 174.0, "gdpMultiple": null},
+          {"name": "Japan",          "salary": 149.7, "gdpMultiple": null},
+          {"name": "Singapore",      "salary": 154.0, "gdpMultiple": null},
+          {"name": "Australia",      "salary": 201.2, "gdpMultiple": null},
+          {"name": "Canada",         "salary": 154.0, "gdpMultiple": null},
+          {"name": "New Zealand",    "salary": 112.5, "gdpMultiple": null},
+          {"name": "Germany",        "salary": 119.5, "gdpMultiple": null},
+          {"name": "Ireland",        "salary": 120.4, "gdpMultiple": null},
+          {"name": "Britain",        "salary": 105.4, "gdpMultiple": null},
+          {"name": "Pakistan",       "salary": 3.5,   "gdpMultiple": null},
+          {"name": "Saudi Arabia",   "salary": 64.0,  "gdpMultiple": null},
+          {"name": "Malaysia",       "salary": 25.3,  "gdpMultiple": null},
+          {"name": "France",         "salary": 85.9,  "gdpMultiple": null}
+        ],
+        "gdpMultipleScale": "0 to 6, shown on right axis"
+      },
+      "questionAsk": "What is the difference between the highest and lowest average salaries of politicians in the countries listed above?",
+      "options": [
+        "A: $96,100",
+        "B: $115,300",
+        "C: $175,900",
+        "D: $178,500",
+        "E: $197,700"
+      ]
+    },
+
+    {
+      "qNum": 30,
+      "answer": "C",
+      "topicTag": "Combinatorics",
+      "hasVisualData": false,
+      "questionText": "In a prize draw, tickets are printed with 3-digit numbers from 001 to 999. Contestants pay to take a ticket at random. A major prize is awarded for all tickets where the product of the 3 digits on the ticket drawn is 8 and a minor prize is awarded when the product is 12. For example 143 wins a minor prize because 1 x 4 x 3 = 12.\n\nWhat is the maximum number of major prizes which could be won?",
+      "options": [
+        "A: 7",
+        "B: 9",
+        "C: 10",
+        "D: 13",
+        "E: 14"
+      ]
+    },
+
+    {
+      "qNum": 31,
+      "answer": "E",
+      "topicTag": "Systematic Testing",
+      "hasVisualData": true,
+      "questionText": "The table shows the cost of hot drinks in a local cafe.",
+      "tableData": {
+        "description": "Hot drink prices",
+        "headers": ["drink", "price"],
+        "rows": [
+          ["tea", "£1.50"],
+          ["coffee", "£2.50"],
+          ["chocolate", "£3.00"]
+        ]
+      },
+      "questionAsk": "Belle bought a number of hot drinks, including at least one of each tea, coffee and chocolate. She was charged £32.00. If she bought the same number of teas as coffees, what was the maximum number of hot drinks that Belle could have bought for the £32.00?",
+      "options": [
+        "A: 9",
+        "B: 10",
+        "C: 12",
+        "D: 13",
+        "E: 14"
+      ]
+    },
+
+    {
+      "qNum": 32,
+      "answer": "C",
+      "topicTag": "Spatial Reasoning",
+      "hasVisualData": true,
+      "questionText": "I have a wooden cube with edges that are 5 cm long. I paint it in the following way:\n- one pair of opposite faces is red\n- one pair of opposite faces is green\n- one pair of opposite faces is blue\n\nNow I cut the cube into small cubes, each of whose edges are 1 cm long.\n\nHow many of the small cubes have one green face, one blue face, but no red face?",
+      "visualNote": "Diagram shows the 5x5x5 cube being cut. Red = top/bottom, Green = front/back, Blue = left/right.",
+      "options": [
+        "A: 6",
+        "B: 8",
+        "C: 12",
+        "D: 16",
+        "E: 24"
+      ]
+    },
+
+    {
+      "qNum": 36,
+      "answer": "E",
+      "topicTag": "Table Reading & Logic",
+      "hasVisualData": true,
+      "questionText": "Grandma has spent £60 on five books which she is intending to give to her three grandchildren, Miya, Harriet and Mehran. She is going to give the books in a way that relates the cost to the time they normally spend reading (i.e. spend the most on the child who reads the most). Miya reads for an hour a day. Harriet reads for an hour a day on Monday to Thursday and 2 hours a day on Friday to Sunday. Mehran doesn't read on weekdays but does an hour and a half on each of Saturday and Sunday. The details of the books are shown in the table below.",
+      "tableData": {
+        "description": "Book prices",
+        "headers": ["title", "cost"],
+        "rows": [
+          ["Hungry Dinosaurs", "£8"],
+          ["The Celebrated Six", "£9"],
+          ["Fly Away", "£13"],
+          ["Come Back", "£14"],
+          ["The Biraffe", "£16"]
+        ]
+      },
+      "derivedData": {
+        "weeklyReadingHours": {
+          "Miya": 7,
+          "Harriet": 10,
+          "Mehran": 3
+        },
+        "spendRatio": "7:10:3 of £60 = £21:£30:£9",
+        "Miya_books": ["Hungry Dinosaurs (£8)", "Fly Away (£13)"],
+        "Harriet_books": ["Come Back (£14)", "The Biraffe (£16)"],
+        "Mehran_books": ["The Celebrated Six (£9)"]
+      },
+      "questionAsk": "Which one of the following statements is true?",
+      "options": [
+        "A: Harriet was given 'The Celebrated Six'.",
+        "B: Harriet was given 'Fly Away'.",
+        "C: Mehran was given 'The Biraffe'.",
+        "D: Miya was given 'Come Back'.",
+        "E: Miya was given 'Hungry Dinosaurs'."
+      ]
+    },
+
+    {
+      "qNum": 37,
+      "answer": "C",
+      "topicTag": "Simultaneous Equations",
+      "hasVisualData": false,
+      "questionText": "In a ball game points are accumulated by different combinations of four winning shots called a chop, a creamer, a glink and a yip. Playing the game for the first time, the only knowledge I have about the scoring system is that a chop is worth one point more than a creamer, and a creamer is worth twice as many points as a glink. I lose narrowly by 47 points to 50, scoring 3 chops, 4 yips, 3 creamers and 4 glinks. My victorious opponent scored 5 chops, 3 yips, 3 creamers and 2 glinks.\n\nWhich one of the following statements about the scoring system is the only one that is true?",
+      "derivedData": {
+        "values": {"chop": 5, "creamer": 4, "glink": 2, "yip": 3}
+      },
+      "options": [
+        "A: A creamer is worth more points than a chop.",
+        "B: Two chops are worth less than three yips.",
+        "C: A glink is worth 2 points.",
+        "D: Three yips are worth more than three creamers.",
+        "E: A chop is worth 6 points."
+      ]
+    },
+
+    {
+      "qNum": 38,
+      "answer": "D",
+      "topicTag": "Data Interpretation",
+      "hasVisualData": true,
+      "questionText": "At the beginning of the day, a showroom had 32 vehicles for sale. The vehicles were advertised in five categories: hatchback, saloon, utility, estate car and people carrier. By the end of the day, 24 vehicles had been sold.\n\nThe first chart shows a comparison of the numbers of vehicles in each category in the showroom at the beginning of the day, and the second chart shows a comparison of the numbers in the same categories in the showroom at the end of the day.",
+      "chartData": {
+        "pieChartStart": {"total": 32, "values": {"hatch": 12, "saloon": 8, "utility": 6, "estate": 4, "carrier": 2}},
+        "pieChartEnd": {"total": 8, "values": {"hatch": 1, "saloon": 2, "utility": 2, "estate": 2, "carrier": 1}},
+        "sold": {"hatch": 11, "saloon": 6, "utility": 4, "estate": 2, "carrier": 1},
+        "barOptions": [
+          {"label": "bar 1", "vals": [10, 6, 4, 3, 1]},
+          {"label": "bar 2", "vals": [11, 4, 6, 2, 1]},
+          {"label": "bar 3", "vals": [6, 4, 12, 1, 2]},
+          {"label": "bar 4", "vals": [11, 6, 4, 2, 1]},
+          {"label": "bar 5", "vals": [4, 11, 6, 1, 2]}
+        ],
+        "correctBar": "bar 4"
+      },
+      "questionAsk": "Which one of the following shows a comparison of the numbers of cars in each category that were sold?",
+      "options": [
+        "A: bar 1",
+        "B: bar 2",
+        "C: bar 3",
+        "D: bar 4",
+        "E: bar 5"
+      ]
+    },
+
+    {
+      "qNum": 42,
+      "answer": "D",
+      "topicTag": "Systematic Testing",
+      "hasVisualData": false,
+      "questionText": "In my currency, there are six types of coin in circulation:\n\n200p  100p  50p  20p  10p  5p\n\nI start with two coins. I visit a shop and purchase two bars of chocolate and pay using the two coins. My change consists of two coins.\n\nThe next day I re-visit the shop and purchase another one bar of chocolate with that change. My new change, again, consists of two coins.\n\nThe six coins I possess during these two days are all different. I only have two coins at any particular time. The price of a bar of chocolate does not change.\n\nWhat is the price of a bar of chocolate?",
+      "options": [
+        "A: 15p",
+        "B: 25p",
+        "C: 30p",
+        "D: 55p",
+        "E: 60p"
+      ]
+    },
+
+    {
+      "qNum": 43,
+      "answer": "E",
+      "topicTag": "Optimisation",
+      "hasVisualData": true,
+      "questionText": "In a game, players take it in turns to place tokens onto squares of a grid. The squares on the grid are coloured white and grey. When a player places a token they score one point for every token on an adjacent square (either horizontally or vertically). For every adjacent square that is white an extra point is scored.\n\nThe diagram below shows a position in one game. The number on each square shows the number of tokens currently placed on that square:",
+      "gridData": {
+        "description": "5x5 grid with token counts and white/grey colouring",
+        "values": [
+          [3, 1, 5, 1, 2],
+          [1, 2, 0, 4, 5],
+          [2, 1, 2, 3, 1],
+          [1, 2, 2, 5, 2],
+          [5, 4, 3, 2, 4]
+        ],
+        "greyPattern": "Two diagonals forming an X: grey where r==c or r+c==4. All other cells white.",
+        "greyCells": [[0,0],[1,1],[2,2],[3,3],[4,4],[0,4],[1,3],[3,1],[4,0]],
+        "bestPosition": [1,2],
+        "bestScore": 14,
+        "bestBreakdown": "above (0,2)=5 white +1=6, below (2,2)=2 grey=2, left (1,1)=2 grey=2, right (1,3)=4 grey=4. Total=14"
+      },
+      "questionAsk": "What is the maximum number of points that could be scored when the next token is placed on the board?",
+      "options": [
+        "A: 10",
+        "B: 11",
+        "C: 12",
+        "D: 13",
+        "E: 14"
+      ]
+    },
+
+    {
+      "qNum": 44,
+      "answer": "D",
+      "topicTag": "Logical Deduction",
+      "hasVisualData": true,
+      "questionText": "In Cat and Mouse, a game for two players, 16 cards are shuffled and then placed face down on a table as shown below:\n\n[4x4 grid of cards numbered 1-16]\n\n[The numbers below the cards are for identification purposes.]\n\nCats are pictured on 8 of the cards and mice on the other 8. Both players pick up two cards at each turn, taking care not to show the cards to the other player. If the two cards are a cat and a mouse, the player keeps the cards and scores a point, but does not reveal which was the cat and which was the mouse. If, however, the two cards are both cats or both mice, the player must put the cards back in the same places.\n\nMy sister and I are currently playing a game, and I am leading by 3 points to 2. The game has progressed so far as follows:",
+      "gameLog": [
+        {"player": "me",     "cards": [2, 13], "result": "cat and mouse pair", "point": true},
+        {"player": "sister", "cards": [7, 16], "result": "cards replaced",     "point": false},
+        {"player": "me",     "cards": [5, 11], "result": "cat and mouse pair", "point": true},
+        {"player": "sister", "cards": [10,12], "result": "cards replaced",     "point": false},
+        {"player": "me",     "cards": [3, 8],  "result": "two mice; cards replaced", "point": false},
+        {"player": "sister", "cards": [7, 14], "result": "cat and mouse pair", "point": true},
+        {"player": "me",     "cards": [1, 15], "result": "cat and mouse pair", "point": true},
+        {"player": "sister", "cards": [8, 10], "result": "cat and mouse pair", "point": true}
+      ],
+      "derivedData": {
+        "knownCards": {"3": "mouse", "8": "mouse", "10": "cat", "12": "cat"},
+        "deductionChain": "Turn 5: 3&8 = two mice. Turn 8: 8(mouse)&10 = pair, so 10=cat. Turn 4: 10&12 same type, 10=cat, so 12=cat. Cards 3(mouse)+12(cat) = guaranteed pair."
+      },
+      "questionAsk": "It is my turn again and I know for certain that the two cards I am going to pick up will be a cat and mouse pair. Which two cards am I going to pick up?",
+      "options": [
+        "A: 3 & 4",
+        "B: 3 & 6",
+        "C: 3 & 9",
+        "D: 3 & 12",
+        "E: 3 & 16"
+      ]
+    },
+
+    {
+      "qNum": 46,
+      "answer": "C",
+      "topicTag": "Combinatorics",
+      "hasVisualData": true,
+      "questionText": "On Sports Day at St Jude's College points are awarded in each event as follows:",
+      "tableData": {
+        "description": "Points per placing",
+        "headers": ["place", "points"],
+        "rows": [
+          ["1st place", 10],
+          ["2nd place", 6],
+          ["3rd place", 3],
+          ["4th place", 1]
+        ]
+      },
+      "questionAsk": "Each student may enter a maximum of three events. What is the lowest score that is not possible for a student to achieve?",
+      "derivedData": {
+        "achievableScores": "0-23, 26, 30. All integers 0-23 achievable. First gap at 24.",
+        "keyInsight": "23 = 10+10+3, 26 = 10+10+6. No combination of up to 3 from {10,6,3,1} gives 24."
+      },
+      "options": [
+        "A: 15",
+        "B: 22",
+        "C: 24",
+        "D: 27",
+        "E: 31"
+      ]
+    },
+
+    {
+      "qNum": 48,
+      "answer": "C",
+      "topicTag": "Simultaneous Equations",
+      "hasVisualData": false,
+      "questionText": "My three friends bought food at the supermarket. When I asked them, they did not remember the prices of the items, only the final amount they paid.\n\n- Hector paid $3.50 for 3 bread rolls and 1 apple.\n- Lee paid $8.00 for 1 apple and 4 chocolate bars.\n- Olga paid $3.50 for 1 bread roll and 2 chocolate bars.\n\nI want to buy 1 bread roll, 1 apple and 1 chocolate bar.\n\nHow much do I need to pay?",
+      "options": [
+        "A: $3.00",
+        "B: $3.50",
+        "C: $4.00",
+        "D: $4.50",
+        "E: $5.00"
+      ]
+    },
+
+    {
+      "qNum": 50,
+      "answer": "D",
+      "topicTag": "Logical Deduction",
+      "hasVisualData": true,
+      "questionText": "There are five towns at various positions along a major ring road that encircles a city. Traffic travelling clockwise around the ring road is provided with information in the form of five 'distance' signs at various points along the road as shown.",
+      "diagramData": {
+        "description": "Ring road with 5 towns clockwise: Portville, Queensgate, Radcliffe, Southtown, Tunborough. 5 signs between consecutive towns.",
+        "townOrder": ["Portville", "Queensgate", "Radcliffe", "Southtown", "Tunborough"],
+        "signPositions": [
+          {"sign": 1, "between": ["Portville", "Queensgate"]},
+          {"sign": 2, "between": ["Queensgate", "Radcliffe"]},
+          {"sign": 3, "between": ["Radcliffe", "Southtown"]},
+          {"sign": 4, "between": ["Southtown", "Tunborough"]},
+          {"sign": 5, "between": ["Tunborough", "Portville"]}
+        ]
+      },
+      "signData": {
+        "sign1": {"Queensgate": 10, "Radcliffe": 32, "Southtown": 49, "Tunborough": 64, "Portville": 88},
+        "sign2": {"Radcliffe": 17, "Southtown": 34, "Tunborough": 49, "Portville": 73, "Queensgate": 92},
+        "sign3": {"Southtown": 4, "Tunborough": 19, "Portville": 43, "Queensgate": 62, "Radcliffe": 84},
+        "sign4": {"Tunborough": 9, "Portville": 31, "Queensgate": 52, "Radcliffe": 74, "Southtown": 91},
+        "sign5": {"Portville": 13, "Queensgate": 32, "Radcliffe": 54, "Southtown": 71, "Tunborough": 86}
+      },
+      "derivedData": {
+        "correctSegments": {"PQ": 19, "QR": 22, "RS": 17, "ST": 15, "TP": 24},
+        "ringTotal": 97,
+        "errorSign": 4,
+        "errorTown": "Portville",
+        "errorShown": 31,
+        "errorCorrect": 33
+      },
+      "questionAsk": "One of the signs contains an error in one of the distances indicated. Which one of the signs contains the error?",
+      "options": [
+        "A: sign 1",
+        "B: sign 2",
+        "C: sign 3",
+        "D: sign 4",
+        "E: sign 5"
+      ]
+    }
+  ]
+}
