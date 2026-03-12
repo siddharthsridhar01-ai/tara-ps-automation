@@ -85,11 +85,19 @@ const mathFont = "'Cambria Math', 'Latin Modern Math', 'STIX Two Math', Georgia,
 
 === WRITING STYLE ===
 - No emojis in body text.
-- No em dashes. Use periods, commas, colons instead.
+- ABSOLUTELY NO EM DASHES (—) ANYWHERE IN THE OUTPUT. Not in explanations, not in option text, not in badges, nowhere. Use periods, commas, colons, or semicolons instead. This is a hard rule. If the original question text contains em dashes, replace them with commas or rewrite the sentence.
 - Keep it natural. This is a polished university admissions prep website.
 - Do NOT draw attention to animation mechanics. Let visuals speak.
 - Use "Perfect!" not "Verified!" for correct verify interactions.
 - Dark mode only.
+
+=== SOLVING APPROACH ===
+- THE TSA IS A NON-CALCULATOR EXAM. Every step must be doable with mental arithmetic or simple pen-and-paper working. Do not use methods that require a calculator.
+- Prefer clean logical reasoning and smart elimination over brute-force algebra.
+- When algebra helps, keep the numbers simple. If a formula like (385 + 5p) / 3 can eliminate options instantly on divisibility, use it, but show the arithmetic explicitly.
+- For "which option" questions, it is fine to test the answer options directly. This is not "trial and error" when done systematically with clear reasoning about why wrong options fail.
+- The Solve step should show the method a well-prepared student would use under timed conditions: spot the key constraint, eliminate quickly, confirm the answer.
+- The Verify step can then let students explore all options interactively.
 
 === REPRODUCING VISUAL DATA FROM THE SCREENSHOT ===
 - Copy question wording EXACTLY. Do not paraphrase or add information.
